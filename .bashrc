@@ -11,7 +11,8 @@ PS1="\[\e[31m\][\[\e[m\]\[\e[38;5;172m\]\u\[\e[m\]@\[\e[38;5;153m\]\h\[\e[m\] \[
 
 # set -o vi
 
-export PATH=~/.local/bin/:$PATH
+export PATH=${HOME}/bin/:${HOME}/.local/bin:${PATH}
+
 
 alias vim=nvim
 neofetch

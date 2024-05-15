@@ -58,12 +58,13 @@ bindsym $mod+Shift+s exec pycharm
 bindsym $mod+Shift+z exec kate
 bindsym $mod+Shift+d exec discord
 
-
 bindsym $mod+Shift+b exec feh --bg-fill photos/black.jpg --no-fehbg
 bindsym $mod+Shift+n exec ~/.fehbg
 
-
-
+# bindsym $mod+Shift+comma exec venvon.sh
+# bindsym $mod+Shift+period exec /home/cowie/scripts/venvoff.sh
+# bindsym $mod+Shift+x exec 'ls & read line'
+# # bindsym $mod+Shift+x exec 
 # kill focused window
 bindsym $mod+q kill
 
