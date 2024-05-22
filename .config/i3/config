@@ -49,7 +49,7 @@ focus_follows_mouse no
 bindsym $mod+Return exec alacritty
 
 #open Firefox
-bindsym $mod+Shift+f exec firefox
+bindsym $mod+Shift+f exec firefox -P default
 bindsym $mod+Shift+p exec firefox -private-window
 bindsym $mod+Shift+g exec firefox -P jp
 bindsym $mod+Shift+a exec kate;exec anki;exec qolibri
