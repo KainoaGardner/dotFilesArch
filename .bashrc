@@ -16,3 +16,28 @@ export PATH=${HOME}/bin/:${HOME}/.local/bin:${PATH}
 
 alias vim=nvim
 neofetch
+
+
+ve() {
+    local py=python3
+    local venv="./.venv"
+
+    local bin="${venv}/bin/activate"
+
+	  if [ -z "${VIRTUAL_ENV}" ]; then
+        if [ ! -d ${venv} ]; then
+            echo "Creating and activating virtual environment ${venv}"
+            ${py} -m venv ${venv} --system-site-package
+            echo "export PYTHON=${py}" >> ${bin}    # overwrite ${python} on .zshenv
+            source ${bin}
+            # echo "Upgrading pip"
+            # ${py} -m pip install --upgrade pip
+        else
+            echo "Virtual environment  ${venv} already exists, activating..."
+            source ${bin}
+        fi
+    else
+        echo "Already in a virtual environment!"
+    fi
+}
+

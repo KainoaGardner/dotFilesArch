@@ -54,9 +54,10 @@ bindsym $mod+Shift+p exec firefox -private-window
 bindsym $mod+Shift+g exec firefox -P jp
 bindsym $mod+Shift+a exec kate;exec anki;exec qolibri
 bindsym $mod+Shift+q exec anki
-bindsym $mod+Shift+s exec pycharm
+bindsym $mod+Shift+s exec steam
 bindsym $mod+Shift+z exec kate
 bindsym $mod+Shift+d exec discord
+bindsym $mod+Shift+v exec virt-manager
 
 bindsym $mod+Shift+b exec feh --bg-fill photos/black.jpg --no-fehbg
 bindsym $mod+Shift+n exec ~/.fehbg
