@@ -62,9 +62,6 @@ bindsym $mod+Shift+v exec virt-manager
 bindsym $mod+Shift+n exec feh --bg-fill photos/black.jpg --no-fehbg
 bindsym $mod+Shift+b exec ~/.fehbg
 
-#SCEENSHOT
-bindsym $mod+Shift+comma exec flameshot gui -p ~/Pictures
-# bindsym $mod+Shift+comma exec flameshot gui 
 #SCRATCHPADS
 
 exec --no-startup-id alacritty -T "term"
