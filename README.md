@@ -1,5 +1,9 @@
 <h1 align="left">Arch Linux Dot Files</h1>
 <p>My personal simple arch dot files.</p>
+<img src=".github/2024-10-20_13-45.png"
+     alt="Image"
+     style="float: left; margin-right: 10px; height: 300px" />
+
 
 #### Files
 >
@@ -11,6 +15,3 @@
 > - tmux
 > - vifm
 
-<img src=".github/2024-10-20_13-45.png"
-     alt="Image"
-     style="float: left; margin-right: 10px; height: 300px" />
