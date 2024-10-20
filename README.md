@@ -10,3 +10,7 @@
 > - polybar
 > - tmux
 > - vifm
+
+<img src="2024-10-20_13-45.png.github/"
+     alt="Image"
+     style="float: left; margin-right: 10px; height: 300px" />
